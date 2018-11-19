@@ -30,7 +30,12 @@ int main()
 
 	cout << endl;
 	cout << "Multiplication = " << multiply << endl << endl;
+	
+    for (int i = 1; i < m; i++)
+		if (abs(b[i]) < min)min = abs(b[i]);
 
+	cout << "Min = " << min << endl << endl;
+	
     cout << "Array:" << endl;
 
 	for (int i = 0; i < m; i++) {
